@@ -14,8 +14,9 @@ datasource db {
 }
 
 model Blogs {
-  id      Int    @id @default(autoincrement())
-  title   String
-  author  String
-  content String
+  id        Int      @id @default(autoincrement())
+  title     String
+  author    String
+  content   String
+  createdAt DateTime @default(now())
 }

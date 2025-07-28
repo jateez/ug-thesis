@@ -1,1 +1,9 @@
 node_modules
+test_results
+run-test*.sh
+docker-compose.yml
+prometheus.yml
+backup_test_results
+downloads
+package-lock.json
+prometheus-data
